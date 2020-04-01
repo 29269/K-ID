@@ -1,0 +1,134 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* overflow: none; */
+}
+
+nav {
+    background-color: #fff;
+    color: #FFCC00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 80vh;
+    transition: left .5s ease-in-out;
+    margin-top: 66px;
+    /* display: grid;
+    grid-template-columns: 1fr auto; */
+}
+
+nav img {
+    width: 170px;
+    margin-top: -300px;
+    margin-left: 240px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    display: block;
+    text-decoration: none;
+    /* border-bottom: 1px solid #CCADFF;
+    border-bottom: 20%; */
+}
+
+nav a.actief {
+    padding: 1em 1.3em;
+    border-left: .7em solid #FFCC00;
+}
+
+#menu-schuiver:checked~nav {
+    left: 100vw;
+}
+
+#menu-schuiver {
+    display: none;
+}
+
+label.haal-menu {
+    font-size: 2em;
+    padding: .8rem 2rem;
+    display: block;
+    border-bottom: 2px solid #FFCC00;
+    text-align: right;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    padding: 30px 70px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    background-color: #FFCC00;
+}
+
+.reg {
+    background-color: #CCADFF;
+}
+
+.login:focus {
+    border-color: 13px solid #CCADFF;
+}
+
+.reg:focus {
+    border-color: 13px solid #FFCC00;
+}
+
+.button_index {
+    text-align: center;
+}
+
+#rand {
+    width: 250px;
+    height: 130px;
+    border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+    border: 1px solid #9e978e;
+    background-color: black;
+    margin-right: 30px;
+    margin-top: 48px;
+}
+
+#rand2 {
+    width: 250px;
+    height: 130px;
+    border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+    border: 1px solid #9e978e;
+    background-color: #CCADFF;
+    margin-left: 250px;
+    margin-top: -130px;
+}
+
+#rand3 {
+    width: 200px;
+    height: 100px;
+    border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+    background: #9e978e;
+    border: 1px solid #9e978e;
+    background-color: #FFCC00;
+    margin-left: 120px;
+    margin-top: -97px;
+}

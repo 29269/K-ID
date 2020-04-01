@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bottom {
+    width: 240px;
+    height: 190px;
+    border-radius: 0 50% 50% 0 / 0 100% 100% 0;
+    background-color: #CCADFF;
+    border-bottom: 0;
+    z-index: 100%;
+}
+
+#bottom2 {
+    width: 300px;
+    height: 190px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: black;
+    border-bottom: 0;
+    margin-top: -200px;
+    margin-left: 190px;
+    z-index: 100%;
+}
+
+#bottom3 {
+    width: 220px;
+    height: 120px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: #FFCC00;
+    border-bottom: 0;
+    margin-top: -200px;
+    margin-left: 120px;
+    z-index: 100%;
+}
+
+.kader {
+    border-radius: 40px;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.titel {
+    margin-right: 95px;
+}
+
+h1 {
+    margin: 30px;
+    font-size: xxx-large;
+    margin-top: -10p;
+}
+
+.toevoegen input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.toevoegen button {
+    width: 50%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    margin-top: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+}
