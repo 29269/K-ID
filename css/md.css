@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bottom {
+    width: 240px;
+    height: 190px;
+    border-radius: 0 50% 50% 0 / 0 100% 100% 0;
+    background-color: #CCADFF;
+    border-bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#bottom2 {
+    width: 300px;
+    height: 190px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: black;
+    border-bottom: 0;
+    margin-left: 190px;
+    z-index: 1;
+}
+
+#bottom3 {
+    width: 220px;
+    height: 120px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: #FFCC00;
+    border-bottom: 0;
+    margin-top: -200px;
+    margin-left: 120px;
+    z-index: 1;
+}
+
+.titel {
+    margin-right: 95px;
+}
+
+.titel2 {
+    margin-right: 35px;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 40px;
+    margin-top: -105px;
+    position: absolute;
+    z-index: 2;
+    color: #FFCC00;
+    text-align: right;
+}
+
+.toevoegen input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+#pass-status {
+    /* margin-right: 20px; */
+    float: right;
+    margin-left: -35px;
+    margin-top: 35px;
+    position: absolute;
+    z-index: 1;
+}
+
+#left {
+    margin-top: 60px;
+    margin-right: 150px;
+    color: #CCADFF;
+    font-size: 45px;
+}
+
+#right {
+    color: #FFCC00;
+    font-size: 45px;
+}
+
+.balltjes {
+    text-align: center;
+    margin-left: .5em;
+}
+
+.md {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: .5em;
+    margin-top: 4.5em;
+    font-size: 35px;
+}
+
+.wk {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: .5em;
+    margin-top: 4.5em;
+    font-size: 35px;
+}
+
+.dy {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: .5em;
+    margin-top: 4.5em;
+    font-size: 35px;
+}
+
+body {
+    background-color: rgb(71, 69, 69);
+}
+
+.month {
+    padding: 20px 5px;
+    width: 90%;
+    text-align: center;
+    margin-left: .5em;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* letter-spacing: 3px; */
+    list-style: none;
+}
+
+.month .prev {
+    float: left;
+}
+
+.month .next {
+    float: right;
+}
+
+.weekdays {
+    text-align: center;
+    padding: 3px 0;
+}
+
+.weekdays li {
+    height: 30px;
+    width: 25px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10.6%;
+    color: #FFCC00;
+    padding-top: 5px;
+    margin: .2em;
+}
+
+.days {
+    padding: 10px 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.1%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #FFCC00;
+    padding-bottom: 15px;
+}
+
+.days li .active {
+    padding: 5px;
+    background: rgb(78, 53, 76);
+    color: white !important
+}
