@@ -1,18 +1,3 @@
-//eye voor wachtwoord...
-function viewPassword() {
-    var passwordInput = document.getElementById('password-field');
-    var passStatus = document.getElementById('pass-status');
-
-    if (passwordInput.type == 'password') {
-        passwordInput.type = 'text';
-        passStatus.className = 'fa fa-eye-slash';
-
-    } else {
-        passwordInput.type = 'password';
-        passStatus.className = 'fa fa-eye';
-    }
-}
-// timer
 const FULL_DASH_ARRAY = 283;
 const WARNING_THRESHOLD = 10;
 const ALERT_THRESHOLD = 5;
@@ -31,7 +16,7 @@ const COLOR_CODES = {
     }
 };
 
-const TIME_LIMIT = 30;
+const TIME_LIMIT = 20;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
