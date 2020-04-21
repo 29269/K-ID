@@ -111,3 +111,8 @@ function setCircleDasharray() {
         .getElementById("base-timer-path-remaining")
         .setAttribute("stroke-dasharray", circleDasharray);
 }
+
+function myFunction() {
+    medling = setTimeout(function() { alert("Gaan we nog door  ^_~!!"); }, 20100);
+}
+myFunction();

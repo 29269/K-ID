@@ -126,3 +126,9 @@ function setCircleDasharray() {
         .getElementById("base-timer-path-remaining")
         .setAttribute("stroke-dasharray", circleDasharray);
 }
+var medling;
+
+function myFunction() {
+    medling = setTimeout(function() { alert("Goed zo!!"); }, 30100);
+}
+myFunction();
